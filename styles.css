@@ -2,14 +2,20 @@ body {
     text-align: center;
   }
   
-  #target {
+  .circle {
     width: 100px;
     height: 100px;
-    background-color: red;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
     display: none;
   }
+  
+  #target {
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  #distractor {
+    background-color: blue;
+    border-radius: 50%;
+  }
+  
